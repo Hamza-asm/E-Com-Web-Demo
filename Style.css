@@ -1,0 +1,316 @@
+.hero-section {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    background: linear-gradient(to right, #8B4513, #ad9472);
+    padding: 20px;
+    padding-bottom: 200px;
+    justify-content: space-between;
+    width: 100vw;
+    position:relative ;
+  }
+  
+  .logo-and-heading {
+    display: flex;
+    align-items: center;
+  }
+  
+  .ww {
+    max-width: 100px;
+  }
+  .para{
+    text-align: center;
+  }
+  
+
+  
+  .text-content {
+    margin-top: 20px; 
+    text-align: center;
+  
+  }
+  
+  .image-container {
+    flex: 1;
+  }
+  nav {
+    list-style: none;
+    margin-left: 600px;
+    padding: 0;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 60px; 
+    justify-content: space-evenly;
+  }
+  
+  nav ul li a {
+    font-family:sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 18px; 
+    border-radius: 50px;
+    text-decoration: none;
+    background-color: #ad9472;
+    display: inline-block;
+    padding: 5px 9px;
+
+  }
+  
+  nav ul li a:hover {
+    background-color: #312b23;
+    color: wheat;
+  }
+  .fonts{
+    font-family: serif;
+    color:wheat
+  }
+.logofont{
+    color: black; 
+    margin: 0;
+    margin-left: 10px;
+}
+.imagecontainer{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    max-width: 100%;
+    display: flex;
+}
+.clothes1{
+    height: auto;
+    width: 550px;
+ 
+}
+
+.hed3{
+    font-size: 4rem;
+}
+.para{
+    font-size: 1.5rem
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  header {
+    width: 100%;
+  }
+  .products-button {
+    display: flex;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #665743; 
+    color: wheat;
+    text-decoration: none;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 150px; 
+    margin-left: -65px;
+  }
+  
+  .products-button:hover {
+    background-color: #312b23;
+  }
+  .women{
+    height: 500%;
+    width: 500%;
+    
+  }
+
+/* section part*/
+.product-section {
+  margin-top: 20px; /* Adjust spacing as needed */
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 800px; /* Adjust width as needed */
+  height: 300px; /* Adjust height as needed */
+}
+
+.slider-track {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  flex: 0 0 auto; /* Ensure slides don't expand */
+  width: 200px; /* Adjust slide width */
+  height: 100%;
+  /* Add your product styling here */
+}
+.secHead{
+    text-align: center;
+    font-family: serif;
+    color: #493f31;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.sectionDiv{
+    background-color: wheat;
+
+}
+.product-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 0;
+  background-color: wheat;
+  margin-top: -1px;
+}
+
+
+
+
+
+.carousel {
+  width: 30%;
+  max-width: 1200px; 
+  margin: 0 auto; /* Center the carousel */
+
+}
+
+.carousel-inner img {
+  width: 50%; /* Make images fill the carousel container */
+  height: 5%; /* Maintain aspect ratio */
+  object-fit: cover;
+  border-radius: 100px;
+}
+
+/* Carousel control buttons styling */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background to icons */
+  border-radius: 50%; /* Round the control icons */
+  padding: 15px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%; /* Adjust the width of the controls */
+}
+.more-button{
+    display: flex;
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #665743; 
+    color: wheat;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top:10px ;
+  }
+.more-button:hover{
+    background-color: #312b23;
+}
+footer {
+    text-align: center;
+    padding: 40px; 
+    background-color: #665743;
+    font-weight: bold;
+    color: wheat; 
+    font-family: serif;
+  }
+
+  .menProducts {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.secHead {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* Grid layout for products */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+ 
+}
+
+.product-card {
+    background-color: #c5a67d;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 1rem;
+    color: #665743;
+    margin-bottom: 20px;
+}
+
+.product-btn {
+    background-color: #665743;
+    color: wheat;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-btn:hover {
+    background-color: #312b23;
+}
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%; /* On smaller screens, make the carousel full-width */
+  }
+
+  .secHead {
+    font-size: 2rem; /* Adjust heading size for mobile */
+  }
+}
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 products per row on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .product-grid {
+        grid-template-columns: 1fr; /* 1 product per row on mobile */
+    }
+}
